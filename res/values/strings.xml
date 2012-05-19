@@ -800,20 +800,20 @@ To also erase music, pictures, and other user data, the SD card needs to be form
     <string name="skip_button_label">Cancel</string>
     <string name="next_button_label">Next</string>
     <string name="lock_title">Securing your phone</string>
-    <string name="lock_intro_message"><font size="17">"Protect your phone from unauthorised use by creating a personal screen unlock pattern. 
+    <string name="lock_intro_message"><font size="17">"Protect your phone from unauthorised use by creating a personal screen unlock pattern.
 "<font height="17">"
-"</font><b>1</b>"  On the next screen, watch while an example pattern is drawn. 
+"</font><b>1</b>"  On the next screen, watch while an example pattern is drawn.
 "<font height="17">"
-"</font><b>2</b>"  When ready, draw your own personal unlock pattern. Experiment with different patterns but connect at least four dots. 
+"</font><b>2</b>"  When ready, draw your own personal unlock pattern. Experiment with different patterns but connect at least four dots.
 "<font height="17">"
-"</font><b>3</b>"  Redraw your pattern to confirm. 
+"</font><b>3</b>"  Redraw your pattern to confirm.
 "<font height="17">"
-"</font><b>Ready to start? Select “Next”</b>". 
+"</font><b>Ready to start? Select “Next”</b>".
 "<font height="3">"
 "</font>To leave your phone unprotected, select “Cancel”.</font>" "</string>
     <string name="lock_example_title">Example pattern</string>
     <string name="lock_example_message">"Connect at least four dots.
- 
+
 Select “Next” when you’re ready to draw your own pattern."</string>
     <string name="manageapplications_settings_title">Manage applications</string>
     <string name="manageapplications_settings_summary">Manage and remove installed applications</string>
@@ -1388,16 +1388,16 @@ Click OK to install screen reader"</string>
 
 3. Select %1$s from available networks.
 
-4. Enjoy Internet with Sprint Hotspot."</string>
+4. Enjoy Internet with Wireless Hotspot."</string>
     <string name="mobileap_settings_summary">Enable other devices to connect Internet via 3G network of your phone</string>
     <string name="mobileap_subtext_enabled_subtext">Hotspot activated</string>
-    <string name="mobileap_subtext">Set and change options for Sprint Hotspot</string>
-    <string name="mobileap">Sprint Hotspot</string>
-    <string name="mobileap_settings">Sprint Hotspot Settings</string>
-    <string name="mobileap_settings_category">Sprint Hotspot settings</string>
+    <string name="mobileap_subtext">Set and change options for Wireless Hotspot</string>
+    <string name="mobileap">Wireless Hotspot</string>
+    <string name="mobileap_settings">Wireless Hotspot Settings</string>
+    <string name="mobileap_settings_category">Wireless Hotspot settings</string>
     <string name="mobileap_name">Name</string>
     <string name="mobileap_password">Password</string>
-    <string name="mobileap_low_battery">Low battery. Charge before using Sprint Hotspot</string>
+    <string name="mobileap_low_battery">Low battery. Charge before using Wireless Hotspot</string>
     <string name="ssid_too_long_error">Name must not exceed %d characters</string>
     <string name="network_key_length_error" formatted="false">Password must contain at least %1$d characters and not exceed %2$d characters</string>
     <string name="hide_my_device_title">Visible</string>
@@ -1413,10 +1413,10 @@ Click OK to install screen reader"</string>
     <string name="dialog_network_key_change_warning">Changing password will disconnect linked devices. Continue?</string>
     <string name="dialog_tethering_disconnection_warning">Linked devices will not access internet after deactivating tethering. Continue?</string>
     <string name="dialog_tethering_enable_warning">Tethering will use cellular networks as backhaul connection of internet</string>
-    <string name="dialog_connecting_packet_data">Activating Sprint Hotspot</string>
+    <string name="dialog_connecting_packet_data">Activating Wireless Hotspot</string>
     <string name="dialog_activating">Activating...</string>
     <string name="dialog_disconnecting">Disconnecting...</string>
-    <string name="mobileap_instruction_inactivate">"You can share your device's Sprint Hotspot with Wi-Fi enabled devices.
+    <string name="mobileap_instruction_inactivate">"You can share your device's Wireless Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
     <string name="mobileap_instruction_activate" formatted="false">"1. Turn Wi-Fi on.
@@ -1430,8 +1430,8 @@ After you start the Mobile Hotspot Wi-Fi router, connect using the controls on y
     <string name="dialog_disconnecting_wifi">Disconnecting Wi-Fi...</string>
     <string name="mobileap_wifi_turn_off_message">"Activiating Hotspot...
 Wi-Fi will be deactivated"</string>
-    <string name="mobileap_instruction_inactivate_title"><b>Introduction to Sprint Hotspot</b></string>
-    <string name="mobileap_instruction_activate_title"><b>How to connect to Sprint Hotspot from other devices</b></string>
+    <string name="mobileap_instruction_inactivate_title"><b>Introduction to Wireless Hotspot</b></string>
+    <string name="mobileap_instruction_activate_title"><b>How to connect to Wireless Hotspot from other devices</b></string>
     <string name="it_policy_not_allow_wifi">Security policy restricts use of Wi-Fi</string>
     <string name="it_policy_not_allow_wifiap">Security policy restricts use of Internet sharing</string>
     <string name="turn_on_qxdm">Enable QXDM SD log</string>
