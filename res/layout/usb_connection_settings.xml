@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@id/charging_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dip" android:textColor="@android:color/white" android:id="@id/charging_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/charging_quick_toggle_title" />
+            <TextView android:textSize="16.0sp" android:id="@id/charging_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/charging_quick_toggle_summary" android:layout_below="@id/charging_title" />
+            <RadioButton android:id="@id/toggle_charging" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" />
+            <View android:id="@id/separator" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_below="@id/charging_summary" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/mass_storage_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dip" android:textColor="@android:color/white" android:id="@id/mass_storage_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/mass_storage_quick_toggle_title" />
+            <TextView android:textSize="16.0sp" android:id="@id/mass_storage_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mass_storage_quick_toggle_summary" android:layout_below="@id/mass_storage_title" />
+            <RadioButton android:id="@id/toggle_mass_storage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" />
+            <View android:id="@id/separator" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_below="@id/mass_storage_summary" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/tethered_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dip" android:textColor="@android:color/white" android:id="@id/tethered_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/tethered_quick_toggle_title" />
+            <TextView android:textSize="16.0sp" android:id="@id/tethered_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tethered_quick_toggle_summary" android:layout_below="@id/tethered_title" />
+            <RadioButton android:id="@id/toggle_tethered_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" />
+            <View android:id="@id/separator" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_below="@id/tethered_summary" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/askonconnection_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dip" android:textColor="@android:color/white" android:id="@id/askonconnection_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/askonconnection_quick_toggle_title" />
+            <TextView android:textSize="16.0sp" android:id="@id/askonconnection_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/askonconnection_quick_toggle_summary" android:layout_below="@id/askonconnection_title" />
+            <RadioButton android:id="@id/toggle_ask_on_connection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" />
+            <View android:id="@id/separator" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_below="@id/askonconnection_summary" />
+        </RelativeLayout>
+    </RadioGroup>
+</LinearLayout>

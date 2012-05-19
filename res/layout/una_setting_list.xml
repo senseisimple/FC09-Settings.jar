@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settinglayout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nemustech.tiffany.widget.TFScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/scrolllayout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.599976sp" android:textStyle="bold" android:textColor="@33882112" android:textColorHint="@33882113" android:gravity="center_vertical" android:id="@id/subTitle1" android:background="@android:drawable/dark_header" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="25.299988dip" android:text="@string/update_notification" />
+            <com.sec.android.touchwiz.widget.TwRadioGroup android:orientation="vertical" android:id="@id/radio_group1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+                <com.sec.android.touchwiz.widget.TwRadioButton android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/radio1" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:text="@string/off" />
+                <View android:background="@android:drawable/btn_radio_off_disabled_holo_light" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.sec.android.touchwiz.widget.TwRadioButton android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/radio2" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:text="@string/wifi_only" />
+                <View android:background="@android:drawable/btn_radio_off_disabled_holo_light" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.sec.android.touchwiz.widget.TwRadioButton android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/radio3" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:text="@string/packet_data" />
+                <View android:background="@android:drawable/btn_radio_off_disabled_holo_light" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </com.sec.android.touchwiz.widget.TwRadioGroup>
+        </LinearLayout>
+    </com.nemustech.tiffany.widget.TFScrollView>
+</LinearLayout>
